@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fridge Flair – Handmade Kiwi Fridge Magnets</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f1e4;
+            text-align: center;
+        }
+        header {
+            background-color: #c1440e;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        nav {
+            margin: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            margin: 15px;
+            color: #c1440e;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .shop-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .product {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 250px;
+            height: 350px;
+            margin: 10px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .product button {
+            background-color: #c1440e;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .product button:hover {
+            background-color: #a13209;
+        }
+        .testimonial {
+            background-color: #fff3e0;
+            padding: 20px;
+            margin: 20px auto;
+            width: 60%;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .newsletter {
+            background-color: #c1440e;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        function addToCart(item) {
+            alert(item + " has been added to your cart!");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        Fridge Flair – Magnetizing Kiwi Culture!
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#shop">Shop</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+        <a href="payment.html">Payment</a>
+    </nav>
+    <div class="container" id="about">
+        <h2>About Fridge Flair</h2>
+        <p><strong>Fridge Flair – Handmade, Eco-Friendly Fridge Magnets</strong></p>
+        <p>Add a touch of personality to your space with <strong>Fridge Flair</strong>, where sustainability meets creativity! Our <strong>handmade fridge magnets</strong> are crafted from <strong>recycled coffee grounds and clay</strong>, offering a unique, eco-friendly alternative to plastic magnets. Inspired by <strong>Kiwi humor, culture, and creativity</strong>, each magnet is individually designed, ensuring no two are exactly alike.</p>
+    </div>
+    <div class="container" id="shop">
+        <h2>Shop Our Collection</h2>
+        <div class="shop-container">
+            <div class="product">
+                <h3>"Sweet As" Magnet</h3>
+                <p>A classic Kiwi phrase on a stylish, eco-friendly magnet. Handmade using natural materials for a durable, long-lasting design.</p>
+                <p>Price: $10.00</p>
+                <button onclick="addToCart('Sweet As Magnet')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <h3>"Chur Bro" Magnet</h3>
+                <p>Bring the Kiwi vibes to your fridge with this fun magnet. A great gift or souvenir for anyone who loves New Zealand culture.</p>
+                <p>Price: $10.00</p>
+                <button onclick="addToCart('Chur Bro Magnet')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <h3>"Yeah Nah" Magnet</h3>
+                <p>Perfect for those indecisive moments – a true Kiwi classic. Made with eco-friendly materials and stylish finish.</p>
+                <p>Price: $10.00</p>
+                <button onclick="addToCart('Yeah Nah Magnet')">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+            <p>"Absolutely love my Fridge Flair magnets! They add such a cool touch to my kitchen." - Sarah M.</p>
+        </div>
+        <div class="testimonial">
+            <p>"Perfect gift idea! My friends loved the Kiwi slang designs." - James L.</p>
+        </div>
+    </div>
+    <div class="newsletter">
+        <h2>Stay Updated!</h2>
+        <p>Subscribe to our newsletter for exclusive deals and new designs.</p>
+        <input type="email" placeholder="Enter your email" style="padding: 10px; width: 250px;">
+        <button style="padding: 10px 20px; background-color: white; color: #c1440e; border: none; cursor: pointer;">Subscribe</button>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@fridgeflair.co.nz</p>
+        <p>Follow us on Instagram: <a href="https://www.instagram.com/macfridgeflaire/profilecard/?igsh=MXU4cGJya2h5M29nYQ==" target="_blank">@macfridgeflaire</a></p>
+        <p>Follow us on Facebook: <a href="https://www.facebook.com/profile.php?id=100092352095984" target="_blank">Fridge Flair NZ</a></p>
+    </div>
+    <footer>
+        &copy; 2025 Fridge Flair. All Rights Reserved.
+    </footer>
+</body>
+</html>
